@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="body">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.body {
+  margin-top: 60px;
 }
 </style>
