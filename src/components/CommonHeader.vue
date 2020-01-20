@@ -36,9 +36,5 @@ Vue.use(ButtonPlugin)
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.body {
-  margin-top: 60px;
-  padding: 16px;
-  font-family: 'Nanum Gothic Coding', monospace;
-}
+
 </style>
