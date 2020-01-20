@@ -53,9 +53,10 @@ export default {
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .app {
-    width: 1000px;
+    width: 800px;
   }
 }
+
 </style>
