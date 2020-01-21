@@ -3,7 +3,7 @@
     <!-- Header -->
     <common-header/>
     <!-- Body -->
-    <home-view/>
+    <router-view class="body"></router-view>
     <!-- Footer -->
     <common-footer/>
 
@@ -12,7 +12,7 @@
 
 <script>
 import Vue from 'vue'
-import HomeView from './views/HomeView.vue'
+// import HomeView from './views/HomeView.vue'
 import CommonHeader from './components/CommonHeader.vue'
 import CommonFooter from './components/CommonFooter.vue'
 import BootstrapVue from 'bootstrap-vue'
@@ -23,7 +23,7 @@ Vue.use(BootstrapVue)
 
 export default {
   components: {
-    HomeView,
+    // HomeView,
     CommonHeader,
     CommonFooter
   }
@@ -50,5 +50,9 @@ export default {
   .app {
     width: 800px;
   }
+}
+
+.body {
+  padding: 1rem;
 }
 </style>
