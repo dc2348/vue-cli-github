@@ -1,41 +1,34 @@
 <template>
   <div id="app" class="app">
     <!-- Header -->
-    <CommonHeader/>
-    <!-- body -->
-    <HomeBody msg="Under Development..."/>
-    <!-- footer -->
-    <CommonFooter/>
+    <common-header/>
+    <!-- Body -->
+    <home-view/>
+    <!-- Footer -->
+    <common-footer/>
 
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
-import HomeBody from './components/HomeBody.vue'
+import HomeView from './views/HomeView.vue'
 import CommonHeader from './components/CommonHeader.vue'
 import CommonFooter from './components/CommonFooter.vue'
-
-// Bootstrap-Vue start
-import { BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-// Install BootstrapVue
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
-Vue.use(IconsPlugin)
-
-// Bootstrap-Vue end
 
 export default {
-  name: 'app',
   components: {
-    HomeBody,
+    HomeView,
     CommonHeader,
     CommonFooter
   }
 }
+
 </script>
 
 <style>
@@ -58,5 +51,4 @@ export default {
     width: 800px;
   }
 }
-
 </style>

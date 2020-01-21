@@ -14,25 +14,9 @@
 </template>
 
 <script>
-import Vue from 'vue'
-
 export default {
-  name: 'Homebody',
-  props: {
-    msg: String
-  }
+
 }
-
-// Bootstrap-Vue start
-import { BootstrapVue, CardPlugin, ButtonPlugin } from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-// Install BootstrapVue
-Vue.use(BootstrapVue)
-Vue.use(CardPlugin)
-Vue.use(ButtonPlugin)
-// Bootstrap-Vue end
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
