@@ -6,7 +6,6 @@
     <router-view class="body"></router-view>
     <!-- Footer -->
     <common-footer/>
-
   </div>
 </template>
 
@@ -23,7 +22,6 @@ Vue.use(BootstrapVue)
 
 export default {
   components: {
-    // HomeView,
     CommonHeader,
     CommonFooter
   }

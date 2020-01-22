@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue"
 import BlogView from "../views/BlogView.vue"
 import PortfolioView from "../views/PortfolioView.vue"
+import BlogDetailView from "../views/BlogDetailView.vue"
+
 
 Vue.use(VueRouter);
 
@@ -26,6 +28,10 @@ export const router = new VueRouter({
         {
             path: '/portfolio',
             component: PortfolioView,
+        },
+        {
+            path: '/blogDetail',
+            component: BlogDetailView,
         }
       ]
 });
