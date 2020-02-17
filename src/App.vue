@@ -11,7 +11,6 @@
 
 <script>
 import Vue from 'vue'
-// import HomeView from './views/HomeView.vue'
 import CommonHeader from './components/CommonHeader.vue'
 import CommonFooter from './components/CommonFooter.vue'
 import BootstrapVue from 'bootstrap-vue'
@@ -37,11 +36,7 @@ export default {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  /* font-family: 'Nanum Gothic Coding', monospace; */
-}
-
-*:lang(en) { 
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Consolas;
 }
 
 @media (min-width: 1000px) {
