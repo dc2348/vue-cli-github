@@ -1,6 +1,11 @@
 <template>
   <div>
-    <markdown-it-vue class="md-body" :content="CONTENT"/>
+    <b-card>
+      <template v-slot:header>
+        <h6 class="mb-0">{{ POST.title }}</h6>
+      </template>
+      <markdown-it-vue class="md-body p-3" :content="POST.content"/>
+    </b-card>
   </div>
 </template>
 
@@ -15,13 +20,13 @@ export default {
     MarkdownItVue
   },
   created () {
-    this.CONTENT = eval(`this.POST${this.$route.params.id}.content`)
+    this.POST = eval(`this.POST${this.$route.params.id}`)
   },
   data () {
     return {
       POST1,
       POST2,
-      CONTENT: ''
+      POST: ''
     }
   }
 };

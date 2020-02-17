@@ -37,16 +37,16 @@ export default {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Nanum Gothic Coding', monospace;
+  /* font-family: 'Nanum Gothic Coding', monospace; */
 }
 
 *:lang(en) { 
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .app {
-    width: 900px;
+    width: 1000px;
   }
 }
 
