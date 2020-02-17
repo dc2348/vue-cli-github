@@ -44,9 +44,9 @@ export default {
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .app {
-    width: 800px;
+    width: 900px;
   }
 }
 

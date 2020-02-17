@@ -19,19 +19,20 @@ export const router = new VueRouter({
         // conponent: url 주소로 갔을 때 표시될 컴포넌트
         {
             path: '/home',
-            component: HomeView,
+            component: HomeView
         },
         {
             path: '/blog',
-            component: BlogView,
+            component: BlogView
         },
         {
             path: '/portfolio',
-            component: PortfolioView,
+            component: PortfolioView
         },
         {
             path: '/blogDetail',
             component: BlogDetailView,
+            name : 'blogDetail'
         }
       ]
 });

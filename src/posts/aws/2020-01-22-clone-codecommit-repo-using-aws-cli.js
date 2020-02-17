@@ -1,6 +1,6 @@
-
-export default `
-
+export default {
+    title: 'AWS CLI를 이용하여 CodeCommit Clone하기',
+    content: `
 # AWS CLI를 이용하여 CodeCommit Clone하기
 
 ## CodeCommit에 대한 HTTPS 접속을 위한 Git 자격 증명 생성
@@ -17,7 +17,7 @@ export default `
 
 ###### 세션토큰 받아오기
 \`\`\`
-aws sts get-session-token --serial-number arn:aws:iam::175816075786:mfa/dc2348 --token-code 158391
+aws sts get-session-token --serial-number arn:aws:iam::175816075786:mfa/dc2348 --token-code 902453
 
 // arn:aws:iam::175816075786:mfa/dc2348 : 할당된 MFA 디바이스
 // 158391 : MFA의 6자리숫자
@@ -59,4 +59,5 @@ git clone https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/xxxxxx
 
 # 참조
 https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-gc.html
-`;
+`
+};
