@@ -1,5 +1,7 @@
 export default {
     title: 'AWS CLI 사용하기',
+    summary: 'AWS CLI를 설치하고 인증하는 방법',
+    date:  '2020-01-22 10:00:00 +0900',
     content: `
 # AWS CLI 사용하기
 ## AWS CLI 설치

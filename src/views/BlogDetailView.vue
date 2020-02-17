@@ -6,7 +6,7 @@
 
 <script>
 import POST1 from '@/posts/aws/2020-01-22-use-aws-cli.js'
-import POST2 from '@/posts/aws/2020-01-22-clone-codecommit-repo-using-aws-cli.js'
+import POST2 from '@/posts/aws/2020-01-23-clone-codecommit-repo-using-aws-cli.js'
 import MarkdownItVue from 'markdown-it-vue'
 import 'markdown-it-vue/dist/markdown-it-vue.css'
 
