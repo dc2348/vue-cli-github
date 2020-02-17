@@ -19,10 +19,10 @@ export default {
 
 ###### 세션토큰 받아오기
 \`\`\`
-aws sts get-session-token --serial-number arn:aws:iam::175816075786:mfa/dc2348 --token-code 902453
+aws sts get-session-token --serial-number arn:aws:iam::175816075786:mfa/dc2348 --token-code 123456
 
 // arn:aws:iam::175816075786:mfa/dc2348 : 할당된 MFA 디바이스
-// 158391 : MFA의 6자리숫자
+// 123456 : MFA의 6자리숫자
 \`\`\`
 
 성공하면 AccessKeyId, SecretAccessKey, SessionToken, Expiration 이라는 4가지 값을 받아온다
