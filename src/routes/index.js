@@ -9,7 +9,7 @@ import BlogDetailView from "../views/BlogDetailView.vue"
 Vue.use(VueRouter);
 
 export const router = new VueRouter({
-    mode: 'history',
+    // mode: 'history',
     routes: [
         {
             path: '/',
