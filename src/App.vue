@@ -2,26 +2,22 @@
   <div id="app" class="app">
     <!-- Header -->
     <common-header/>
-    <!-- Body -->
-    <router-view class="body"></router-view>
+    <!-- Section -->
+    <common-section/>
     <!-- Footer -->
     <common-footer/>
   </div>
 </template>
 
 <script>
-import Vue from 'vue'
 import CommonHeader from './components/CommonHeader.vue'
+import CommonSection from './components/CommonSection.vue'
 import CommonFooter from './components/CommonFooter.vue'
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-Vue.use(BootstrapVue)
 
 export default {
   components: {
     CommonHeader,
+    CommonSection,
     CommonFooter
   }
 }
@@ -43,9 +39,5 @@ export default {
   .app {
     width: 1000px;
   }
-}
-
-.body {
-  padding: 1rem;
 }
 </style>

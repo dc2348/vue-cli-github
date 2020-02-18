@@ -1,7 +1,7 @@
 <template>
-    <footer class="footer">
-      <p class="copyright">Copyright© 2020 <a href="https://dc2348.github.io">Shin,Hyesoo</a> </p>
-    </footer>
+  <footer>
+    <p class="copyright">Copyright© 2020 <router-link to="/home">Shin,Hyesoo</router-link></p>
+  </footer>
 </template>
 
 <script>
@@ -12,20 +12,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.footer {
-  position: fixed;
+footer {
   bottom: 0;
   width: 100%;
   text-align: left;
-  padding: 16px;
+  padding: 0 16px;
 }
 
-.footer .copyright{
+footer .copyright{
   font-size: 12px;
-  color: #999;
-  }
+  color: #586069!important;
+  padding-top: 40px;
+  border-top: 1px solid #e1e4e8!important;
+  margin-top: 40px;
+}
 
-.footer .copyright a{
-   color: #999;
+footer .copyright a{
+   color: #586069!important;
 }
 </style>

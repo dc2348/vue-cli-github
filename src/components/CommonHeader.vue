@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <header>
       <b-navbar type="light" variant="faded">
         <b-navbar-brand href="https://dc2348.github.io"> 
           <img src="../assets/images/icon_macaroon_30x30.jpg" class="d-inline-block align-top" alt="profile logo">
@@ -22,10 +22,17 @@
           <b-nav-item to="/portfolio">Portfolio</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
-    </div>
+    </header>
 </template>
 
 <script>
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+Vue.use(BootstrapVue)
+
 export default {
 
 }

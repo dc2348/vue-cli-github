@@ -1,0 +1,18 @@
+<template>
+    <section>
+      <router-view></router-view>
+    </section>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+section {
+  padding: 1rem;
+}
+</style>
