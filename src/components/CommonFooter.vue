@@ -24,7 +24,7 @@ footer .copyright{
   color: #586069;
   padding-top: 40px;
   border-top: 1px solid #e1e4e8;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 footer .copyright a{
