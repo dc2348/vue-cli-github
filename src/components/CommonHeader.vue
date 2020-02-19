@@ -1,7 +1,7 @@
 <template>
     <header>
       <b-navbar type="light" variant="faded">
-        <b-navbar-brand href="https://dc2348.github.io"> 
+        <b-navbar-brand to="/home"> 
           <img src="../assets/images/icon_macaroon_30x30.jpg" class="d-inline-block align-top" alt="profile logo">
           <span> Frontend</span> 개발
         </b-navbar-brand>

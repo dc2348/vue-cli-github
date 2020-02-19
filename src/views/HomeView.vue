@@ -1,7 +1,7 @@
 <template>
   <div class="body">
       <div>
-      <b-card img-src="../assets/images/background_macaroon.jpg" img-alt="Card image" img-top>
+      <b-card>
         <b-card-text>
           쇼핑몰 개발을 하며 경험하는 것들을 기록해보려고 합니다.
         </b-card-text>

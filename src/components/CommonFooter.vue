@@ -21,13 +21,13 @@ footer {
 
 footer .copyright{
   font-size: 12px;
-  color: #586069!important;
+  color: #586069;
   padding-top: 40px;
-  border-top: 1px solid #e1e4e8!important;
+  border-top: 1px solid #e1e4e8;
   margin-top: 40px;
 }
 
 footer .copyright a{
-   color: #586069!important;
+   color: #586069;
 }
 </style>
