@@ -9,6 +9,7 @@ export default {
 ### AWS CLI 설치
 ###### MSI 설치 관리자를 이용
 - Windows용 AWS CLI MSI 설치 관리자(64비트) 다운로드
+- ![aws-2020-01-22-01](/images/aws/aws-2020-01-22-01.jpg)
 
 ### 설치 확인
 \`\`\`
