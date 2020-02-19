@@ -10,8 +10,8 @@
         <b-button lang="en" href="#" variant="outline-secondary">Go Portfolio</b-button> -->
 
         <!-- bootstrap-vue Router link support -->
-        <b-button to="/blog" variant="outline-secondary" lang="en" >Blog</b-button> <span></span>
-        <b-button to="/portfolio" variant="outline-secondary" lang="en">Portfolio</b-button>
+        <b-button to="/blog" variant="outline-secondary" lang="en" >Go Blog</b-button> <span></span>
+        <b-button to="/portfolio" variant="outline-secondary" lang="en">Go Portfolio</b-button>
       </b-card>
     </div>
   </div>
