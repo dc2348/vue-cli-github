@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link :to="{ name: 'blogDetail', params: { id: 1 }}">
-      <b-card  class="mb-3">
+      <b-card class="mb-3">
         <b-card-title>{{ POST1.title }}</b-card-title>
         <b-card-text>
           {{ POST1.summary }}
@@ -10,12 +10,21 @@
       </b-card>
     </router-link>
     <router-link :to="{ name: 'blogDetail', params: { id: 2 }}">
-      <b-card>
+      <b-card class="mb-3">
         <b-card-title>{{ POST2.title }}</b-card-title>
         <b-card-text>
           {{ POST2.summary }}
         </b-card-text>
         <b-card-text class="small text-muted">{{ POST2.date }}</b-card-text>
+      </b-card>
+    </router-link>
+    <router-link :to="{ name: 'blogDetail2', params: { id: 1 }}">
+      <b-card  class="mb-3">
+        <b-card-title>Vue-CLI3에서 markdown 파일 로드하기</b-card-title>
+        <!-- <b-card-text>
+          {{ POST1.summary }}
+        </b-card-text> -->
+        <b-card-text class="small text-muted">2020-02-20 09:00:00 +0900</b-card-text>
       </b-card>
     </router-link>
   </div>

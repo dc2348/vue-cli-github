@@ -4,6 +4,7 @@ import HomeView from "../views/HomeView.vue"
 import BlogView from "../views/BlogView.vue"
 import PortfolioView from "../views/PortfolioView.vue"
 import BlogDetailView from "../views/BlogDetailView.vue"
+import BlogDetailView2 from "../views/BlogDetailView2.vue"
 
 
 Vue.use(VueRouter);
@@ -33,6 +34,11 @@ export const router = new VueRouter({
             path: '/blogDetail',
             component: BlogDetailView,
             name : 'blogDetail'
+        },
+        {
+            path: '/blogDetail2',
+            component: BlogDetailView2,
+            name : 'blogDetail2'
         }
       ]
 });
