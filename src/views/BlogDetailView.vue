@@ -1,4 +1,5 @@
 <template>
+  <!-- 삭제예정 파일 -->
   <div>
     <b-card>
       <template v-slot:header>
