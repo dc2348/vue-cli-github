@@ -2,8 +2,8 @@
     <header>
       <b-navbar type="light" variant="faded">
         <b-navbar-brand to="/home"> 
-          <img src="../assets/images/icon_macaroon_30x30.jpg" class="d-inline-block align-top" alt="profile logo">
-          <span> Frontend</span> 개발
+          <img src="../assets/images/icon_macaroon_30x30.jpg" class="d-inline-block align-top" alt="profile logo" />
+          Frontend 개발
         </b-navbar-brand>
         <b-navbar-nav class="ml-auto">
           <!-- bootstrap-vue original -->
