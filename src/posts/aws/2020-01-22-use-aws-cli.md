@@ -3,8 +3,8 @@
 
 ### AWS CLI 설치
 ###### MSI 설치 관리자를 이용
-- Windows용 AWS CLI MSI 설치 관리자(64비트) 다운로드
-- ![aws-2020-01-22-01](/posts/images/aws/aws-2020-01-22-01.jpg)
+- Windows용 AWS CLI MSI 설치 관리자(64비트) 다운로드 및 설치
+    - ![aws-2020-01-22-01](/posts/images/aws/aws-2020-01-22-01.jpg)
 
 ### 설치 확인
 ``` bash
@@ -15,7 +15,7 @@ aws --version
 ``` bash
 where aws
 ```
-- where 명령은 시스템 PATH에서 지정된 프로그램을 찾은 위치를 표시
+:bulb: where 명령은 시스템 PATH에서 지정된 프로그램을 찾은 위치를 표시
 
 
 ## AWS CLI 구성
@@ -30,12 +30,12 @@ AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY // 보안
 Default region name [None]: us-west-2 // AWS 리전
 Default output format [None]: json // 출력 형식
 ```
-`default` 프로파일에 저장(사용할 프로파일을 명시적으로 지정하지 않는 AWS CLI 명령이 실행될 때마다 사용됨)
+`default` 프로파일에 저장(`default` 프로파일은 사용할 프로파일을 명시적으로 지정하지 않고 AWS CLI 명령어를 실행할 때마다 사용됨)
 
 
 ###### 액세스 키 및 비밀 액세스 키 생성
 
-1. AWS Management 콘솔에 로그인한 다음 https://console.aws.amazon.com/iam/에서 IAM 콘솔을 엽니다.
+1. AWS Management 콘솔에 로그인한 다음 [https://console.aws.amazon.com/iam/](https://console.aws.amazon.com/iam/)에서 IAM 콘솔을 엽니다.
 2. 탐색 창에서 사용자를 선택합니다.
 3. 액세스 키를 생성할 사용자의 이름을 선택한 다음 Security credentials(보안 자격 증명) 탭을 선택합니다.
 4. 액세스 키 섹션에서 Create access key(액세스 키 생성)를 선택합니다.
@@ -55,7 +55,7 @@ or yaml
 or text
 or table
 ```
-- 출력 형식을 지정하지 않으면 json이 기본값으로 사용됨
+:bulb: 출력 형식을 지정하지 않으면 json이 기본값으로 사용됨
 
 ### 구성 설정 및 우선 순위
 AWS CLI는 여러 자격 증명 공급자를 사용하여 AWS 자격 증명을 찾습니다. 각 자격 증명 공급자는 시스템 또는 사용자 환경 변수, 로컬 AWS 구성 파일 또는 명령줄에서 파라미터로 명시적으로 선언된 위치 등 다양한 장소에서 자격 증명을 찾습니다. AWS CLI는 다음 순서로 공급자를 호출하고 사용할 자격 증명 세트를 찾은 경우 중지하여 자격 증명 및 구성 설정을 찾습니다.
