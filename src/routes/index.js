@@ -31,12 +31,12 @@ export const router = new VueRouter({
             component: PortfolioView
         },
         {
-            path: '/blogDetail',
+            path: '/blogDetail/:category/:id',
             component: BlogDetailView,
             name : 'blogDetail'
         },
         {
-            path: '/blogDetail2',
+            path: '/blogDetail2/:category/:id',
             component: BlogDetailView2,
             name : 'blogDetail2'
         }
