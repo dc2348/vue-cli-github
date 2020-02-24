@@ -11,7 +11,7 @@
   ```
 
 - markdown 형식의 파일 import 시 아래와 같은 webpack loader 오류가 발생
-  ```
+  ``` bash
   Failed to compile.
 
   @/posts/vue/2020-02-20-vue-markdown-loader.md 1:0
@@ -27,7 +27,7 @@
 
 ## 설치
 1. Vue2일 경우
-  ```
+  ``` bash
   npm i vue-markdown-loader -D
   npm i  vue-loader vue-template-compiler -D
   ```
@@ -84,7 +84,7 @@
 
 ###### github-markdown-css 추가하기
 1. `github-markdown-css` 플러그인 설치하기
-```
+``` bash
 npm i github-markdown-css
 ```
 2. 플러그인 `import`하기

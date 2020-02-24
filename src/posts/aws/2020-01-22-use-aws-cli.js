@@ -12,12 +12,12 @@ export default {
 - ![aws-2020-01-22-01](/posts/images/aws/aws-2020-01-22-01.jpg)
 
 ### 설치 확인
-\`\`\`
+\`\`\` bash
 aws --version
 \`\`\`
 
 ### 설치 경로 찾기
-\`\`\`
+\`\`\` bash
 where aws
 \`\`\`
 - where 명령은 시스템 PATH에서 지정된 프로그램을 찾은 위치를 표시
@@ -25,11 +25,11 @@ where aws
 
 ## AWS CLI 구성
 ### 빠르게 구성하기
-\`\`\`
+\`\`\` bash
 aws configure
 \`\`\`
 명령어 실행 후 아래 4가지 정보 입력
-\`\`\`
+\`\`\` bash
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE // 액세스 키
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY // 보안 액세스 키(비밀 액세스 키)
 Default region name [None]: us-west-2 // AWS 리전
@@ -49,12 +49,12 @@ Default output format [None]: json // 출력 형식
 - 보안 액세스 키: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 ###### 리전
-\`\`\`
+\`\`\` bash
 ap-northeast-2 // 아시아 태평양(서울)
 \`\`\`
 
 ###### 출력
-\`\`\`
+\`\`\` bash
 json
 or yaml
 or text
