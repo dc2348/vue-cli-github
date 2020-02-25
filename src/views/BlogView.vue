@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link v-for="item in posts" :key="item.title" :to="{ name: 'posts', params: { id:item.id, component: item.mdfile}}">
+    <router-link v-for="(item, index) in posts" :key="item.title" :to="{ name: 'posts', params: { index: index + 1}}">
       <b-card  class="mb-3">
         <b-card-title>{{ item.title }}</b-card-title>
         <b-card-text class="small text-muted">{{ item.date }}</b-card-text>

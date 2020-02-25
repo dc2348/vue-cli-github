@@ -36,7 +36,7 @@ export const router = new VueRouter({
             name : 'blogDetail'
         },
         {
-            path: '/posts/:id',
+            path: '/posts/:index',
             component: PostsView,
             name : 'posts'
         }

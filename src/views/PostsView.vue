@@ -10,10 +10,12 @@
 import 'highlight.js/styles/github.css'
 import 'github-markdown-css'
 
+import posts from '@/posts/index.js'
+
 export default {
   data () {
     return {
-        posts : this.$route.params.component
+        posts : posts[this.$route.params.index-1].mdfile
     }
   }
 };
