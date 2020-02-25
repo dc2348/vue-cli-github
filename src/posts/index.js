@@ -1,7 +1,10 @@
 import Post1 from '@/posts/aws/2020-01-22-use-aws-cli.md'
 import Post2 from '@/posts/aws/2020-01-23-clone-codecommit-repo-using-aws-cli.md'
 import Post3 from '@/posts/vue/2020-02-20-vue-markdown-loader.md'
-import Post4 from '@/posts/vue/2020-02-19-async-programming.md'
+// import Post4 from '@/posts/vue/2020-02-19-async-programming.md'
+import Post5 from '@/posts/vue/2020-02-25-eslintignore.md'
+import Post6 from '@/posts/vue/2020-02-25-npm.md'
+// import Post7 from '@/posts/webpack/2020-02-25-webpack.md'
 
 export default [
     {
@@ -19,9 +22,24 @@ export default [
         title:'Vue-CLI3에서 markdown 파일 로드하기',
         date:'2020-02-20 09:00:00 +0900'
     },
+    // {
+    //     mdfile: Post4,
+    //     title:'비동기적 프로그래밍',
+    //     date:'2020-02-19 15:00:00 +0900'
+    // },
     {
-        mdfile: Post4,
-        title:'비동기적 프로그래밍',
-        date:'2020-02-19 15:00:00 +0900'
-    }
+        mdfile: Post5,
+        title:'eslint에서 특정 파일 형식 제외하기',
+        date:'2020-02-25 14:00:00 +0900'
+    },
+    {
+        mdfile: Post6,
+        title:'NPM(Node Package Manager)',
+        date:'2020-02-25 16:30:00 +0900'
+    },
+    // {
+    //     mdfile: Post7,
+    //     title:'Webpack이란',
+    //     date:'2020-02-26 17:00:00 +0900'
+    // }
 ];
