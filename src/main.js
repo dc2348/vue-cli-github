@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { router } from "./routes/index.js"
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faVuejs, faAws, faJs, faNpm } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
  
 library.add( faVuejs, faAws, faJs, faNpm )
  

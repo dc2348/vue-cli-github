@@ -5,6 +5,7 @@ import Post3 from '@/posts/vue/2020-02-20-vue-markdown-loader.md'
 import Post5 from '@/posts/vue/2020-02-25-eslintignore.md'
 import Post6 from '@/posts/vue/2020-02-25-npm.md'
 // import Post7 from '@/posts/webpack/2020-02-25-webpack.md'
+import Post8 from '@/posts/vue/2020-02-26-vue-fontawesome.md'
 
 export default [
     {
@@ -48,5 +49,11 @@ export default [
     //     title:'Webpack이란',
     //     date:'2020-02-26 17:00:00 +0900',
         // category: 'vuejs'
-    // }
+    // },
+    {
+        mdfile: Post8,
+        title:'vue-fontawesome 사용하기',
+        date:'2020-02-26 10:30:00 +0900',
+        category: 'vuejs'
+    }
 ];
