@@ -29,7 +29,7 @@ export default [
     // },
     {
         mdfile: Post5,
-        title:'eslint에서 특정 파일 형식 제외하기',
+        title:'ESlint에서 특정 파일 형식 제외하기',
         date:'2020-02-25 14:00:00 +0900'
     },
     {

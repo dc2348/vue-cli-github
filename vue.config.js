@@ -19,7 +19,8 @@ module.exports = {
           return options
         });
 
-      config.module.rule('md')
+      config.module
+        .rule('md')
         .test(/\.md/)
         .use('vue-loader')
         .loader('vue-loader')
