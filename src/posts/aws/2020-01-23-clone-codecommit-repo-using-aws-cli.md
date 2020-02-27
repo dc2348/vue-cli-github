@@ -51,5 +51,5 @@ git clone https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/xxxxxx
 ```
 
 
-# 참조
+### :bookmark_tabs: 참조(references)
 - [https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-gc.html](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-gc.html)

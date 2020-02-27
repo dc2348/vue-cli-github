@@ -67,6 +67,6 @@ AWS CLI는 여러 자격 증명 공급자를 사용하여 AWS 자격 증명을 �
 4. 컨테이너 자격 증명
 5. 인스턴스 프로필 자격 증명
 
-## 참조
+### :bookmark_tabs: 참조(references)
 - [https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-windows.html](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-windows.html)
 - [https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-chap-configure.html](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-chap-configure.html)
