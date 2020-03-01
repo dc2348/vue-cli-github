@@ -21,13 +21,52 @@ SSH 프로토콜을 사용하여 리모트 저장소에 접근할 때 Passphase 
 위에서 설명한 여러 모드 중 하나를 아래와 같이 설정할 수 있다.
 
 ```bash
-git config --global credential.helper cache
+git config credential.helper "$helper $options"
 ```
 
+## cache
+###### git-credential-cache 헬퍼
+- 비밀번호를 일시적으로 저장소에 저장한다.
 
+###### 상세설명
+`cache` 명령어는 Git 프로그램에서 나중에 사용할 수 있도록 자격 증명을 메모리에 캐시한다. 저장된 자격 증명은 절대 디스크를 건드리지 않으며 구성 가능한 시간 초과 후 잊어 버린다. 캐시는 Unix 도메인 소켓을 통해 액세스 할 수 있으며 파일 시스템 권한으로 현재 사용자로 제한된다.
+
+###### 사용법
+```bash
+git config credential.helper 'cache [<options>]'
+```
+
+###### Option
+- `--timeout <seconds>` :  캐시를 유지할 시간(초). (기본값 : 900).
+
+###### 사용예시
+1. 기본 사용법
+- 캐시 명령어 실행
+```bash
+git config credential.helper cache
+```
+- 캐시 명령어를 실행 후에 첫 번째로 푸시 명령어를 수행 할 때 아이디와 패스워드를 최초 한번 입력해준다.
+```bash
+git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+```
+- 5분 후 다시 푸시를 실행할 경우 아이디와 패스워드를 입력하지 않고 푸시가 가능하다.
+```bash
+git push http://example.com/repo.git // 푸시완료
+```
+
+2. 캐시 시간 설정
+- 옵션을 추가하여 캐시를 유지할 시간을 설정 할 수 있다.
+```bash
+git config credential.helper 'cache --timeout=300' // 캐시 시간을 5 분으로 설정
+```
+
+<br>
 
 ### :bookmark_tabs: 참조(references)
 - [https://git-scm.com/docs/git-config](https://git-scm.com/docs/git-config)
 - [https://git-scm.com/docs/gitcredentials](https://git-scm.com/docs/gitcredentials)
+- [https://git-scm.com/docs/git-credential-cache](https://git-scm.com/docs/git-credential-cache)
 - [https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 - [https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Credential-%EC%A0%80%EC%9E%A5%EC%86%8C](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Credential-%EC%A0%80%EC%9E%A5%EC%86%8C)
