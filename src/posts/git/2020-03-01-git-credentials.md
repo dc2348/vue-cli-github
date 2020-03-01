@@ -62,6 +62,13 @@ git push http://example.com/repo.git // 푸시완료
 git config credential.helper 'cache --timeout=300' // 캐시 시간을 5 분으로 설정
 ```
 
+:bulb: `credential-cache` 오류가 날 때 해결 법
+```bash
+git: 'credential-cache' is not a git command. See 'git --help'.
+```
+- [https://stackoverflow.com/questions/11693074/git-credential-cache-is-not-a-git-command](https://stackoverflow.com/questions/11693074/git-credential-cache-is-not-a-git-command)
+
+
 <br>
 
 ### :bookmark_tabs: 참조(references)
@@ -70,3 +77,4 @@ git config credential.helper 'cache --timeout=300' // 캐시 시간을 5 분으�
 - [https://git-scm.com/docs/git-credential-cache](https://git-scm.com/docs/git-credential-cache)
 - [https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 - [https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Credential-%EC%A0%80%EC%9E%A5%EC%86%8C](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Credential-%EC%A0%80%EC%9E%A5%EC%86%8C)
+- [https://dotnet.microsoft.com/download/dotnet-framework](https://dotnet.microsoft.com/download/dotnet-framework)
