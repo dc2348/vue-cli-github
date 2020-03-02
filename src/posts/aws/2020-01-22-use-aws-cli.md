@@ -4,6 +4,7 @@
 ### AWS CLI 설치
 ###### MSI 설치 관리자를 이용
 - Windows용 AWS CLI MSI 설치 관리자(64비트) 다운로드 및 설치
+    - [다운로드 페이지](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-windows.html#install-msi-on-windows)
     - ![aws-2020-01-22-01](/posts/images/aws/aws-2020-01-22-01.jpg)
 
 ### 설치 확인
