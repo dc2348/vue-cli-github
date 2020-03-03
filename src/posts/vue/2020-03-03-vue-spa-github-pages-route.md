@@ -7,7 +7,7 @@
 그 방법은 바로 커스텀 404 error page를 만든 다음, 그 페이지에서 URL 값을 읽어 리다이렉트 시켜주는 방식이다.
 
 ### 1) `404.html` 파일 추가
-- `404.html` 파일을 생성해준다. (:point_right: [GitHub Pages에서 커스텀 404 error 페이지 만들기](http://localhost:8080/posts/9))
+- `404.html` 파일을 생성해준다. (:point_right: [GitHub Pages에서 커스텀 404 error 페이지 만들기](https://dc2348.github.io/posts/9))
 - `404.html` 파일에 아래 코드를 추가해준다.
     ```html
     <!DOCTYPE html>
