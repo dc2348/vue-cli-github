@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p class="copyright">Copyright© 2020 <router-link to="/home">Shin,Hyesoo</router-link></p>
+    <p class="copyright">Copyright© 2020 <router-link to="/">Shin,Hyesoo</router-link></p>
   </footer>
 </template>
 

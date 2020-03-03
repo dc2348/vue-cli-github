@@ -1,7 +1,7 @@
 <template>
     <header>
       <b-navbar type="light" variant="faded">
-        <b-navbar-brand to="/home"> 
+        <b-navbar-brand to="/"> 
           <img src="../assets/images/icon_macaroon_30x30.jpg" class="d-inline-block align-top" alt="profile logo" />
           Frontend 개발
         </b-navbar-brand>
@@ -17,8 +17,8 @@
           <router-link to="/portfolio">Portfolio</router-link> -->
 
           <!-- bootstrap-vue Router link support -->
-          <b-nav-item to="/home">Home</b-nav-item>
-          <b-nav-item to="/blog">Blog</b-nav-item>
+          <!-- <b-nav-item to="/">Home</b-nav-item> -->
+          <b-nav-item to="/">Blog</b-nav-item>
           <b-nav-item to="/portfolio">Portfolio</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
