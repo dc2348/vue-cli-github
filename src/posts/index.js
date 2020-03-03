@@ -7,6 +7,7 @@ import POST6 from '@/posts/vue/2020-02-26-vue-fontawesome.md'
 import POST7 from '@/posts/vue/2020-02-28-webpack.md'
 import POST8 from '@/posts/git/2020-03-01-git-credentials.md'
 import POST9 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
+import POST10 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
 
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
@@ -63,6 +64,12 @@ export default [
         mdfile: POST9,
         title:'GitHub Pages에서 커스텀 404 error 페이지 만들기',
         date:'2020-03-02 13:00:00 +0900',
+        category: 'vuejs'
+    },
+    {
+        mdfile: POST10,
+        title:'Vue SPA를 Github Pages에서 Route하기',
+        date:'2020-03-3 15:00:00 +0900',
         category: 'vuejs'
     }
     // {
