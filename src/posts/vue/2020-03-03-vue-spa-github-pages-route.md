@@ -14,7 +14,7 @@
     <html>
         <head>
             <script>
-                sessionStorage.redirect = location.href;
+                sessionStorage.redirectURL = location.href;
             </script>
             <meta http-equiv="refresh" content="0;URL='/'">
         </head>
@@ -25,13 +25,13 @@
 - `index.html` 파일에 아래 코드를 추가해준다.
     ```html
     <script>
-        (function(){
-            var redirect = sessionStorage.redirect;
-            delete sessionStorage.redirect;
-            if (redirect && redirect != location.href) {
-                history.replaceState(null, null, redirect);
-            }
-        })();
+      (function(){
+          var redirectURL = sessionStorage.redirectURL;
+          delete sessionStorage.redirectURL;
+          if (redirectURL && redirectURL != location.href) {
+              history.replaceState(null, null, redirectURL);
+          }
+      })();
     </script>
     ```
 <br>

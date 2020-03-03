@@ -19,10 +19,10 @@
     <!-- built files will be auto injected -->
     <script>
       (function(){
-          var redirect = sessionStorage.redirect;
-          delete sessionStorage.redirect;
-          if (redirect && redirect != location.href) {
-              history.replaceState(null, null, redirect);
+          var redirectURL = sessionStorage.redirectURL;
+          delete sessionStorage.redirectURL;
+          if (redirectURL && redirectURL != location.href) {
+              history.replaceState(null, null, redirectURL);
           }
       })();
     </script>
