@@ -27,6 +27,6 @@
 <br>
 
 # Technical Skills
-* Strong : Javascript, Java, HTML5, jQuery
-* Knowledgeable : CSS, Oracle, MySQL, Android, iOS, Apache Cordova, JSP, Struts, Python, C
+* Strong : Javascript, Vue, HTML5, jQuery
+* Knowledgeable : Java, Oracle, MySQL, CSS, Android, iOS, Apache Cordova, JSP, Struts, Python, C
 * etc : Jira, SVN, Git
