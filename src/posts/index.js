@@ -6,6 +6,8 @@ import POST5 from '@/posts/npm/2020-02-25-npm.md'
 import POST6 from '@/posts/vue/2020-02-26-vue-fontawesome.md'
 import POST7 from '@/posts/vue/2020-02-28-webpack.md'
 import POST8 from '@/posts/git/2020-03-01-git-credentials.md'
+import POST9 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
+
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
 export default [
@@ -56,6 +58,12 @@ export default [
         title:'Git 아이디와 패스워드 없이 Push하기',
         date:'2020-03-01 19:00:00 +0900',
         category: 'git-alt'
+    },
+    {
+        mdfile: POST9,
+        title:'GitHub Pages에서 커스텀 404 error 페이지 만들기',
+        date:'2020-03-02 13:00:00 +0900',
+        category: 'vuejs'
     }
     // {
     //     mdfile: POST,
