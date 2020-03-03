@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-card>
-      <component :is="posts" class="markdown-body"></component>
+      <component :is="post" class="markdown-body"></component>
     </b-card>
   </div>
 </template>
@@ -15,7 +15,18 @@ import posts from '@/posts/index.js'
 export default {
   data () {
     return {
-        posts : posts[this.$route.params.pageId].mdfile
+        posts
+    }
+  },
+  computed: {
+    post: function () {
+      let result;
+      for(let item of posts) {
+        if(item.pageId == this.$route.params.pageId){
+          result = item
+        }
+      }
+      return result.mdfile
     }
   }
 };
