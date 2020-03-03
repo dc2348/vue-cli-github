@@ -8,7 +8,6 @@ import POST7 from '@/posts/vue/2020-02-28-webpack.md'
 import POST8 from '@/posts/git/2020-03-01-git-credentials.md'
 import POST9 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
 import POST10 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
-
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
 export default [
@@ -16,61 +15,71 @@ export default [
         mdfile: POST1,
         title:'AWS CLI 사용하기',
         date:'2020-01-22 10:00:00 +0900',
-        category: 'aws'
+        category: 'aws',
+        pageId: 1
     },
     {
         mdfile: POST2,
         title:'AWS CLI를 이용하여 CodeCommit Clone하기',
         date:'2020-01-23 16:00:00 +0900',
-        category: 'aws'
+        category: 'aws',
+        pageId: 2
     },
     {
         mdfile: POST3,
         title:'Vue-CLI3에서 markdown 파일 로드하기',
         date:'2020-02-20 09:00:00 +0900',
-        category: 'vuejs'
+        category: 'vuejs',
+        pageId: 3
     },
     {
         mdfile: POST4,
         title:'ESlint에서 특정 파일 형식 제외하기',
         date:'2020-02-25 14:00:00 +0900',
-        category: 'js'
+        category: 'js',
+        pageId: 4
     },
     {
         mdfile: POST5,
         title:'NPM(Node Package Manager)',
         date:'2020-02-28 16:30:00 +0900',
-        category: 'npm'
+        category: 'npm',
+        pageId: 5
     },
     {
         mdfile: POST6,
         title:'vue-fontawesome 사용하기',
         date:'2020-02-26 10:30:00 +0900',
-        category: 'vuejs'
+        category: 'vuejs',
+        pageId: 6
     },
     {
         mdfile: POST7,
         title:'Webpack이란',
         date:'2020-02-28 17:00:00 +0900',
-        category: 'vuejs'
+        category: 'vuejs',
+        pageId: 7
     },
     {
         mdfile: POST8,
         title:'Git 아이디와 패스워드 없이 Push하기',
         date:'2020-03-01 19:00:00 +0900',
-        category: 'git-alt'
+        category: 'git-alt',
+        pageId: 8
     },
     {
         mdfile: POST9,
         title:'GitHub Pages에서 커스텀 404 error 페이지 만들기',
         date:'2020-03-02 13:00:00 +0900',
-        category: 'vuejs'
+        category: 'vuejs',
+        pageId: 9
     },
     {
         mdfile: POST10,
         title:'Vue SPA를 Github Pages에서 Route하기',
         date:'2020-03-3 15:00:00 +0900',
-        category: 'vuejs'
+        category: 'vuejs',
+        pageId: 10
     }
     // {
     //     mdfile: POST,

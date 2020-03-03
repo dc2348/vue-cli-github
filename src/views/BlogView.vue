@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link v-for="(item, index) in posts" :key="item.title" :to="{ name: 'posts', params: { index: index + 1}}">
+    <router-link v-for="item in posts" :key="item.title" :to="{ name: 'posts', params: { pageId: item.pageId}}">
       <b-card class="mb-3">
         <font-awesome-icon :icon="['fab', item.category]" :style="{ color: colors[item.category] }"/>
         {{ item.title }}

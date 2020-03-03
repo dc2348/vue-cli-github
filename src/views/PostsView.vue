@@ -15,7 +15,7 @@ import posts from '@/posts/index.js'
 export default {
   data () {
     return {
-        posts : posts[this.$route.params.index-1].mdfile
+        posts : posts[this.$route.params.pageId].mdfile
     }
   }
 };
