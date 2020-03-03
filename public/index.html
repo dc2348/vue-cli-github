@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <meta name="Description" content="쇼핑몰 개발을 하며 경험하는 것들에 대한 기록">
+    <meta name="description" content="쇼핑몰 개발을 하며 경험하는 것들에 대한 기록">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="Y9cnvZUHzp_JpcEKeDf5v0BPEHaI5x-pZr7C7Gl8rBI" />
@@ -17,5 +17,14 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+      (function(){
+          var redirect = sessionStorage.redirect;
+          delete sessionStorage.redirect;
+          if (redirect && redirect != location.href) {
+              history.replaceState(null, null, redirect);
+          }
+      })();
+    </script>
   </body>
 </html>
