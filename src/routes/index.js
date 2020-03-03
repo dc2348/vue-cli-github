@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import BlogView from "../views/BlogView.vue"
-import PortfolioView from "../views/PortfolioView.vue"
+import AboutView from "../views/AboutView.vue"
 import BlogDetailView from "../views/BlogDetailView.vue"
 import PostsView from "../views/PostsView.vue"
 
@@ -16,8 +16,8 @@ export const router = new VueRouter({
             component: BlogView
         },
         {
-            path: '/portfolio',
-            component: PortfolioView
+            path: '/about',
+            component: AboutView
         },
         {
             path: '/blogDetail/:category/:id',
