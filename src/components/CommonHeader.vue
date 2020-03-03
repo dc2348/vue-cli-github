@@ -7,17 +7,14 @@
         </b-navbar-brand>
         <b-navbar-nav class="ml-auto">
           <!-- bootstrap-vue original -->
-          <!-- <b-nav-item href="https://dc2348.github.io">Home</b-nav-item>
-          <b-nav-item href="#" disabled>Blog</b-nav-item>
+          <!-- <b-nav-item href="#" disabled>Blog</b-nav-item>
           <b-nav-item href="#" disabled>Portfolio</b-nav-item> -->
 
           <!-- vue-router original -->
-          <!-- <router-link to="/home">Home</router-link>
-          <router-link to="/blog">Blog</router-link>
+          <!-- <router-link to="/">Blog</router-link>
           <router-link to="/portfolio">Portfolio</router-link> -->
 
           <!-- bootstrap-vue Router link support -->
-          <!-- <b-nav-item to="/">Home</b-nav-item> -->
           <b-nav-item to="/">Blog</b-nav-item>
           <b-nav-item to="/portfolio">Portfolio</b-nav-item>
         </b-navbar-nav>
