@@ -15,6 +15,8 @@ import POST13 from '@/posts/vue/2020-02-28-webpack.md'
 import POST14 from '@/posts/git/2020-03-01-git-credentials.md'
 import POST15 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
 import POST16 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
+import POST17 from '@/posts/android/2020-03-06-android-layout-area.md'
+
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
 export default [
@@ -126,9 +128,16 @@ export default [
     {
         mdfile: POST16,
         title:'Vue SPA를 Github Pages에서 Route하기',
-        date:'2020-03-3 15:00:00 +0900',
+        date:'2020-03-03 15:00:00 +0900',
         category: 'vuejs',
         pageId: 16
+    },
+    {
+        mdfile: POST17,
+        title:'Android 하이브리드 앱의 네이티브 영역과 웹뷰 영역 구분하기',
+        date:'2020-03-06 15:00:00 +0900',
+        category: 'android',
+        pageId: 17
     }
     // {
     //     mdfile: POST,

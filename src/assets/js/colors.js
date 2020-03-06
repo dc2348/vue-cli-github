@@ -3,5 +3,6 @@ export default {
     aws:'#FF9900',
     js:'#F7E018',
     npm: '#FB3B49',
-    'git-alt': '#F44D27'
+    'git-alt': '#F44D27',
+     android:'#3EDC84'
 }
