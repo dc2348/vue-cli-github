@@ -32,6 +32,8 @@ git push <리모트 저장소 이름> <브랜치 이름>
 - 프로젝트를 공유하고 싶을 때 Upstream 저장소에 Push 할 수 있다.
 - 예시로, `git push origin master` 명령어는 `master 브랜치를 origin 서버에 Push 한다.`라는 뜻을 의미한다.(다시 말하지만 Clone 하면 보통 자동으로 origin 이름이 생성된다) 
 
+<br>
 
+---
 ### :bookmark_tabs: 참조(references)
-https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C
+- [https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C)

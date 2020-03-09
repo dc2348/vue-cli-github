@@ -30,5 +30,6 @@ GitHub pages를 이용한 SPA 사이트를 만들 경우, 잘못된 경로로 �
 
 <br>
 
+---
 ### :bookmark_tabs: 참조(references)
 - [https://help.github.com/en/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site](https://help.github.com/en/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)

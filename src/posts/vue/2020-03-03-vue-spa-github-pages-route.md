@@ -36,5 +36,8 @@
     ```
 <br>
 
+<br>
+
+---
 ### :bookmark_tabs: 참조(references)
 - [https://stackoverflow.com/questions/47677220/vuejs-history-mode-with-github-gitlab-pages](https://stackoverflow.com/questions/47677220/vuejs-history-mode-with-github-gitlab-pages)

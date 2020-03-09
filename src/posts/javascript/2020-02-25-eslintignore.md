@@ -5,7 +5,9 @@
     ```
     **/*.js
     ```
+
 <br>
 
+---
 ### :bookmark_tabs: 참조(references)
 - [https://eslint.org/docs/user-guide/configuring#eslintignore](https://eslint.org/docs/user-guide/configuring#eslintignore)

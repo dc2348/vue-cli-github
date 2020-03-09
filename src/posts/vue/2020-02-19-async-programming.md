@@ -39,6 +39,8 @@ Promise는 다음 중 하나의 상태를 가집니다.
 - 프라미스는 **성공**^fulfilled^하거나, **실패**^rejected^하거나 단 두 가지뿐이다.
 - 프라미스가 성공하거나 실패하면 그 프라미스를 **결정됐다**^settled^고 한다.
 
+<br>
 
+---
 ### :bookmark_tabs: 참조(references)
 - 러닝 자바스크립트

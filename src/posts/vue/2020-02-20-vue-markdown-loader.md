@@ -131,6 +131,9 @@ CSS까지 예쁘게 추가했으나 내가 좋아하는 emoji가 정상적으로
 
 서버 재실행 후, emoji가 정상적으로 노출되는 것을 확인하였다.
 
+<br>
+
+---
 ### :bookmark_tabs: 참조(references)
 - [https://webpack.js.org/loaders/](https://webpack.js.org/loaders/)
 - [https://github.com/peerigon/markdown-loader](https://github.com/peerigon/markdown-loader)

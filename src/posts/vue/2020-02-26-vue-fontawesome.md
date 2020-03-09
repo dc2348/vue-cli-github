@@ -43,6 +43,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 - 결과
     - ![vue-2020-02-26](/posts/images/vue/vue-2020-02-26-02.jpg)
 
+<br>
+
+---
 ### :bookmark_tabs: 참조(references)
 - https://github.com/FortAwesome/vue-fontawesome
 - https://fontawesome.com/icons?d=gallery

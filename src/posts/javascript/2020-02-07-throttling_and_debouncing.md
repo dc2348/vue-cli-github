@@ -9,8 +9,8 @@
 
 ## 라이브러리 사용
 * `lodash` 라이브러리에서 `_.debounce`와 `_.throttle` 함수 제공
-* https://lodash.com/docs/4.17.15#debounce
-* https://lodash.com/docs/4.17.15#throttle
+    * [https://lodash.com/docs/4.17.15#debounce](https://lodash.com/docs/4.17.15#debounce)
+    * [https://lodash.com/docs/4.17.15#throttle](https://lodash.com/docs/4.17.15#throttle)
 
 ###### Vue에 적용 하기
 * 필요한 함수만 사용
@@ -25,7 +25,9 @@
 
 <br>
 
+---
 ### :bookmark_tabs: 참조(references)
-https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa
-https://kr.vuejs.org/v2/guide/computed.html
-https://css-tricks.com/debouncing-throttling-explained-examples/
+- [https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa
+https://kr.vuejs.org/v2/guide/computed.html](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa
+https://kr.vuejs.org/v2/guide/computed.html)
+- [https://css-tricks.com/debouncing-throttling-explained-examples/](https://css-tricks.com/debouncing-throttling-explained-examples/)

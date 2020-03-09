@@ -71,6 +71,7 @@ git: 'credential-cache' is not a git command. See 'git --help'.
 
 <br>
 
+---
 ### :bookmark_tabs: 참조(references)
 - [https://git-scm.com/docs/git-config](https://git-scm.com/docs/git-config)
 - [https://git-scm.com/docs/gitcredentials](https://git-scm.com/docs/gitcredentials)

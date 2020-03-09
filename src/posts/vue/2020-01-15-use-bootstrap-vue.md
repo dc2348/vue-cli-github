@@ -49,5 +49,6 @@ import Vue from 'vue'
 
 <br>
 
+---
 ### :bookmark_tabs: 참조(references)
-https://bootstrap-vue.js.org/docs/
+- [https://bootstrap-vue.js.org/docs/](https://bootstrap-vue.js.org/docs/)

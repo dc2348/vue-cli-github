@@ -108,7 +108,9 @@ git config --global credential.UseHttpPath true
 git clone https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/xxxxxx
 ```
 
+<br>
 
+---
 ### :bookmark_tabs: 참조(references)
 - [https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-gc.html](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/setting-up-gc.html)
 - [https://aws.amazon.com/ko/premiumsupport/knowledge-center/authenticate-mfa-cli/](https://aws.amazon.com/ko/premiumsupport/knowledge-center/authenticate-mfa-cli/)
