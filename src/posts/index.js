@@ -16,6 +16,7 @@ import POST14 from '@/posts/git/2020-03-01-git-credentials.md'
 import POST15 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
 import POST16 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
 import POST17 from '@/posts/android/2020-03-06-android-layout-area.md'
+import POST18 from '@/posts/vue/2020-03-09-vue-ssr.md'
 
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
@@ -138,6 +139,13 @@ export default [
         date:'2020-03-06 15:00:00 +0900',
         category: 'android',
         pageId: 17
+    },
+    {
+        mdfile: POST18,
+        title:'서버 사이드 렌더링(Server-Side Rendering, SSR)이란?',
+        date:'2020-03-09 16:00:00 +0900',
+        category: 'vuejs',
+        pageId: 18
     }
     // {
     //     mdfile: POST,
