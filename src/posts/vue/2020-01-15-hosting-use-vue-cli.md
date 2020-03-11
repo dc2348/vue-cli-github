@@ -1,10 +1,12 @@
+# Vue-CLI를 이용하여 Vue 프로젝트를 Github Pages에 호스팅하기
 
-# 배포파일 생성하기
+
+## 배포파일 생성하기
 ```
 npm run build
 ```
 
-# 배포파일 업로드하기
+## 배포파일 업로드하기
 ```
 cd dist
 git init

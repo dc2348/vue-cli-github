@@ -4,7 +4,7 @@
 > 시험준비를 위해 꼭 읽어보셔야 하는 문서들 입니다.
 - [ ] [AWS 백서](https://aws.amazon.com/ko/whitepapers/)
   - [ ] [AWS 한국어 설명서 목록](https://aws.amazon.com/ko/blogs/korea/ko-documentation/)
-  - [ ] [Amazon Web Services 개요](https://d1.awsstatic.com/International/ko_KR/whitepapers/aws-overview.pdf)
+  - [X] [Amazon Web Services 개요](https://d1.awsstatic.com/International/ko_KR/whitepapers/aws-overview.pdf)
   - [ ] [Architecting for the Cloud](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
   - [ ] [AWS 보안 모범 사례](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
   - [ ] [AWS 스토리지 서비스 개요](https://d1.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
@@ -17,8 +17,8 @@
 
 ## :sparkles: 시험에서 주로 언급되는 서비스의 FAQ문서들
 - [ ] [EC2](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html) : AWS의 핵심서비스인 만큼 EC2에 대한 내용은 무척 비중있게 다루어집니다.
-  - [ ] [인스턴스 및 AMI](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html)
-  - [ ] [인스턴스 유형](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)
+  - [X] [인스턴스 및 AMI](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html)
+  - [X] [인스턴스 유형](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)
   - [ ] [인스턴스 구입 옵션](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-purchasing-options.html)
   - [ ] [리전 및 가용 영역](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
   - [ ] [Amazon EC2 루트 디바이스 볼륨](http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/RootDeviceStorage.html)
