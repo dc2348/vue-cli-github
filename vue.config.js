@@ -31,7 +31,8 @@ module.exports = {
           raw: true,
           use: [
             /* markdown-it plugin */
-            require('markdown-it-emoji')
+            require('markdown-it-emoji'),
+            require('markdown-it-task-lists')
           ]
       });
     }

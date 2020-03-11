@@ -71,7 +71,9 @@
   - 정상적으로 텍스트가 노출되는 것을 확인하였다.
   ![vue-2020-02-20](/posts/images/vue/vue-2020-02-20-02.jpg)
 
-## css추가
+<br>
+
+## CSS 추가
 그렇지만 Markdown 문서가 더 예쁘게 보이게 하기 위해서는 CSS를 추가해주어야 한다.
 
 ###### highlight 추가하기
@@ -100,11 +102,17 @@ import 'github-markdown-css'
   - 헤더 크기와 폰트 등 전체적인 CSS가 깔끔해진 것을 확인할 수 있다.
   ![vue-2020-02-20](/posts/images/vue/vue-2020-02-20-04.jpg)
 
+<br>
+
 ## emoji 플러그인 추가하기
 CSS까지 예쁘게 추가했으나 내가 좋아하는 emoji가 정상적으로 노출이 안되는 것을 발견하였다.
 그래서 emoji를 또 추가하기 위해 방법을 찾아보았다.
 
-1. **vue.config.js** `options`에 아래 코드 추가해주기
+1. `markdown-it-emoji` 플러그인 설치
+```bash
+npm install markdown-it-emoji
+```
+2. **vue.config.js** `options`에 아래 코드 추가해주기
   ```js
   use: [
     /* markdown-it plugin */
@@ -133,6 +141,42 @@ CSS까지 예쁘게 추가했으나 내가 좋아하는 emoji가 정상적으로
 
 <br>
 
+## checkbox 플러그인 추가하기
+또 사용중에 체크박스가 적용이 안되는 것을 발견하였다. 그래서 markdown-it 관련 플러그인을 찾아보니 많이 사용되는 것으로 `markdown-it-task-lists`와 `markdown-it-checkbox`가 있었다. 그 중 더 많이 사용되고 있는 `markdown-it-task-lists` 플러그인을 적용하기로 하였다.
+
+1. `markdown-it-task-lists` 플러그인 설치
+```bash
+npm install markdown-it-task-lists
+```
+2. **vue.config.js** `options`에 아래 코드 추가해주기
+  ```js
+  use: [
+    /* markdown-it plugin */
+    require('markdown-it-task-lists')
+  ]
+  ```
+  ex) 예시
+  ```js
+  config.module.rule('md')
+    .test(/\.md/)
+    .use('vue-loader')
+    .loader('vue-loader')
+    .end()
+    .use('vue-markdown-loader')
+    .loader('vue-markdown-loader/lib/markdown-compiler')
+    .options({
+      raw: true,
+      use: [
+        /* markdown-it plugin */
+        require('markdown-it-emoji'),
+        require('markdown-it-task-lists')
+      ]
+    });
+  ```
+서버 재실행 후, 체크박스가 정상적으로 노출되는 것을 확인하였다.
+
+<br>
+
 ---
 ### :bookmark_tabs: 참조(references)
 - [https://webpack.js.org/loaders/](https://webpack.js.org/loaders/)
@@ -140,3 +184,4 @@ CSS까지 예쁘게 추가했으나 내가 좋아하는 emoji가 정상적으로
 - [https://github.com/QingWei-Li/vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)
 - [https://github.com/markdown-it/markdown-it#syntax-highlighting](https://github.com/markdown-it/markdown-it#syntax-highlighting)
 - [https://github.com/markdown-it/markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji)
+- [https://www.npmtrends.com/markdown-it-checkbox-vs-markdown-it-task-lists](https://www.npmtrends.com/markdown-it-checkbox-vs-markdown-it-task-lists)
