@@ -17,6 +17,7 @@ import POST15 from '@/posts/vue/2020-03-02-404-html-file-in-github-pages.md'
 import POST16 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
 import POST17 from '@/posts/android/2020-03-06-android-layout-area.md'
 import POST18 from '@/posts/vue/2020-03-09-vue-ssr.md'
+import POST19 from '@/posts/aws/2020-03-12-aws-certification-checklist.md'
 
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
@@ -146,6 +147,13 @@ export default [
         date:'2020-03-09 16:00:00 +0900',
         category: 'vuejs',
         pageId: 18
+    },
+    {
+        mdfile: POST19,
+        title:'AWS Developer Certification 시험 체크리스트',
+        date:'2020-03-12 07:00:00 +0900',
+        category: 'aws',
+        pageId: 19
     }
     // {
     //     mdfile: POST,
