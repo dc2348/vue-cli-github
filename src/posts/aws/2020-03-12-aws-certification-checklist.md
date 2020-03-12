@@ -60,8 +60,8 @@
 - [ ] S3
   - [ ] [Amazon S3 FAQ](https://aws.amazon.com/ko/s3/faqs/)
   - [ ] [Amazon S3 리소스에 대한 액세스 권한 관리](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/s3-access-control.html)
-  - [ ] [S3 스토리지 클래스](https://aws.amazon.com/ko/s3/storage-classes/)
-  - [ ] [S3 Reduced Redundancy Storage](https://aws.amazon.com/ko/s3/reduced-redundancy/)
+  - [X] [S3 스토리지 클래스](https://aws.amazon.com/ko/s3/storage-classes/)
+  - [X] [S3 Reduced Redundancy Storage](https://aws.amazon.com/ko/s3/reduced-redundancy/)
 - [ ] [CloudFormation](https://aws.amazon.com/ko/cloudformation/faqs/)
 - [ ] [OpsWorks](https://aws.amazon.com/ko/opsworks/faqs/)
 - [ ] [Amazon SNS](https://aws.amazon.com/ko/sns/faqs/)
