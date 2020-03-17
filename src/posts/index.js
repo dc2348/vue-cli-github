@@ -18,6 +18,7 @@ import POST16 from '@/posts/vue/2020-03-03-vue-spa-github-pages-route.md'
 import POST17 from '@/posts/android/2020-03-06-android-layout-area.md'
 import POST18 from '@/posts/vue/2020-03-09-vue-ssr.md'
 import POST19 from '@/posts/aws/2020-03-12-aws-certification-checklist.md'
+import POST20 from '@/posts/aws/2020-03-17-implementing-microservices-on-AWS.md'
 
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
@@ -154,6 +155,13 @@ export default [
         date:'2020-03-12 07:00:00 +0900',
         category: 'aws',
         pageId: 19
+    },
+    {
+        mdfile: POST20,
+        title:'AWS에서 마이크로 서비스 구현',
+        date:'2020-03-17 08:00:00 +0900',
+        category: 'aws',
+        pageId: 20
     }
     // {
     //     mdfile: POST,
