@@ -206,3 +206,8 @@ CloudFront는 인기 있는 웹 사이트 이미지, 비디오, 미디어 파일
 
 # Contributors
 
+<br>
+
+---
+### :bookmark_tabs: 참조(references)
+- [https://d1.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf](https://d1.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
