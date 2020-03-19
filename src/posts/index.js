@@ -20,7 +20,7 @@ import POST18 from '@/posts/vue/2020-03-09-vue-ssr.md'
 import POST19 from '@/posts/aws/2020-03-12-aws-certification-checklist.md'
 import POST20 from '@/posts/aws/2020-03-17-implementing-microservices-on-AWS-korean.md'
 import POST21 from '@/posts/aws/2020-03-18-AWS-storage-services-overview-korean.md'
-
+import POST22 from '@/posts/aws/2020-03-19-experience-of-AWS-service.md'
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
 export default [
@@ -170,6 +170,13 @@ export default [
         date:'2020-03-18 07:00:00 +0900',
         category: 'aws',
         pageId: 21
+    },
+    {
+        mdfile: POST22,
+        title:'AWS 사용 경험',
+        date:'2020-03-19 08:00:00 +0900',
+        category: 'aws',
+        pageId: 22
     }
     // {
     //     mdfile: POST,
