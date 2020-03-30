@@ -38,7 +38,7 @@
 - [ ] [AWS Lambda](https://aws.amazon.com/ko/lambda/faqs/)
 - [ ] [AWS Step Functions](https://aws.amazon.com/ko/step-functions/faqs/)
 - [X] [Amazon DynamoDB](https://aws.amazon.com/ko/dynamodb/faqs/)
-  - [ ] [SQL에서 NoSQL로](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/SQLtoNoSQL.html)
+  - [x] [SQL에서 NoSQL로](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/SQLtoNoSQL.html)
   - [ ] [프로비저닝된 처리량](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/HowItWorks.ProvisionedThroughput.html)
   - [ ] [DynamoDB의 쿼리 및 스캔 작업](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/QueryAndScan.html)
   - [ ] [파티션 및 데이터 배포](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/HowItWorks.Partitions.html)
