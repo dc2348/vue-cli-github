@@ -22,6 +22,7 @@ import POST20 from '@/posts/aws/2020-03-17-implementing-microservices-on-AWS-kor
 import POST21 from '@/posts/aws/2020-03-18-AWS-storage-services-overview-korean.md'
 import POST22 from '@/posts/aws/2020-03-19-experience-of-AWS-service.md'
 import POST23 from '@/posts/aws/2020-03-20-serverless-architectures-with-aws-lambda-korean.md'
+import POST24 from '@/posts/javascript/2020-04-16-setting-sync.md'
 // import POST from '@/posts/vue/2020-02-19-async-programming.md'
 
 export default [
@@ -185,6 +186,13 @@ export default [
         date:'2020-04-01 15:00:00 +0900',
         category: 'git-alt',
         pageId: 23
+    },
+    {
+        mdfile: POST24,
+        title:'Settings Sync를 이용해서 VSCode간 플러그인 동기화 하기',
+        date:'2020-04-16 15:00:00 +0900',
+        category: 'js',
+        pageId: 24
     }
     // {
     //     mdfile: POST24,
