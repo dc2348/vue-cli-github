@@ -35,9 +35,9 @@ export default {
   font-family: Consolas;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .app {
-    width: 1000px;
+    width: 900px;
   }
 }
 </style>
